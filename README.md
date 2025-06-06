@@ -2,6 +2,39 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+# PopX React App
+
+This is a simple React-based web application that includes user registration, login, and profile viewing. The app mimics a basic onboarding flow for a platform called **PopX**.
+
+---
+
+## 📌 Features
+
+- Landing page with options to create an account or login
+- Signup form to collect user information
+- Login form with email and password
+- Profile page to display submitted user details
+
+---
+
+## 🛠️ Technologies Used
+
+- ReactJS
+- React Router DOM
+- HTML & CSS (Responsive styling)
+- No backend/API used – data is stored temporarily in state
+
+---
+
+## 📁 Project Structure
+
+
+
+
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:
