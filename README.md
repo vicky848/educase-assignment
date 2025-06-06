@@ -27,7 +27,7 @@ This is a simple React-based web application that includes user registration, lo
 
 ---
 
-## 📁 Project Structure
+
 
 
 
