@@ -1,0 +1,98 @@
+.signup-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    min-height: 80vh;
+    box-sizing: border-box;
+}
+
+.signup-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(97, 95, 95);
+    width: 320px;
+    max-width: 90%;
+    height: auto;
+    padding: 30px 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.heading {
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: rgb(134, 18, 243);
+    font-family: 'Roboto', sans-serif;
+    align-self: flex-start;
+    margin-left: 30px;
+}
+
+.input {
+    width: 100%;
+    max-width: 260px;
+    padding: 8px 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+.button-create {
+    background-color: rgba(131, 12, 243, 0.877);
+    color: white;
+    height: 40px;
+    width: 100%;
+    max-width: 200px;
+    border-radius: 6px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+    .heading {
+        font-size: 24px;
+    }
+
+    .input {
+        font-size: 13px;
+    }
+
+    .button-create {
+        height: 36px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .heading {
+        font-size: 20px;
+    }
+
+    .input {
+        font-size: 12px;
+    }
+
+    .button-create {
+        font-size: 14px;
+        max-width: 100%;
+    }
+}
